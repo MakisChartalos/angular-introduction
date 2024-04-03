@@ -6,11 +6,18 @@ import { ForDirectiveExampleComponent } from './components/for-directive-example
 import { SimpleDatatableExampleComponent } from './components/simple-datatable-example/simple-datatable-example.component';
 
 export const routes: Routes = [
-    {path: "component-input-example", component: ComponentInputExampleComponent},
-    {path: "for-directive-example", component:ForDirectiveExampleComponent},
-    {path: "event-bind-example", component: EventBindExampleComponent},
-    {path: "simple-datatable-example", component: SimpleDatatableExampleComponent},
-    {path:"", component: WelcomeComponent},
-    
-    
+  {
+    path: 'component-input-example',
+    component: ComponentInputExampleComponent,
+  },
+  {
+    path: 'for-directive-example',
+    component: ForDirectiveExampleComponent,
+  },
+  { path: 'event-bind-example', component: EventBindExampleComponent },
+  {
+    path: 'simple-datatable-example',
+    component: SimpleDatatableExampleComponent,
+  },
+  { path: '', component: WelcomeComponent },
 ];
